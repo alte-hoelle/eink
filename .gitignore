@@ -1,0 +1,6 @@
+build
+.idea
+*selfbuild.bin
+
+binary
+src

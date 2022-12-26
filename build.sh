@@ -1,0 +1,2 @@
+sh build_display_firmware.sh
+sh build_esp_firmware.sh
