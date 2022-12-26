@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "eink-hell"
+version = "0.1.0"
+description = ""
+authors = ["David Bauer <bauer@synyx.de>"]
+readme = "README.md"
+packages = [{include = "eink_hell"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
