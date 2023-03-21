@@ -1,6 +1,6 @@
 # eink
 
-
+For Pinout see: https://github.com/atc1441/ZBS_Flasher/blob/main/README.md
 
 ## requirements
 
@@ -8,16 +8,29 @@
 * sdcc
 * Python3
 * platformio
+* esptool
 
 
 ## installation
 
-### arch
+### packages arch
 
-```yay -Syu sdcc platformio unzip```
+```
+yay -Syu sdcc platformio unzip
+pip install esptool
+```
 
-### debian/ubuntu
+### packages debian/ubuntu
 
-```sudo apt install sdccplatformio unzip```
+```
+sudo apt install sdccplatformio unzip
+pip install esptool
+```
 
-First run ```init.sh``` to clone necessary repos
+### repo initialisation
+
+Run ```init.sh``` to clone necessary repos
+
+## build
+
+run ```build.sh```
