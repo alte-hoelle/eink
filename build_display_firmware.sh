@@ -6,8 +6,6 @@ then
     exit
 fi
 
-sed -i 's/SDCC\\bin\\sdcc/sdcc/' src/firmware_eink_atc1441_ch11_low_power/cpu/8051/make.mk 
-
 build () {
     mkdir -p binary/$1
     cd src/$1

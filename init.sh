@@ -25,3 +25,5 @@ framework = arduino
 platform = espressif32@5.0.0
 board = nodemcu-32s
 framework = arduino" > src/firmware_flasher/ESP32_Flasher/platformio.ini
+
+sed -i 's/SDCC\\bin\\sdcc/sdcc/' src/firmware_eink_atc1441_ch11_low_power/cpu/8051/make.mk 
