@@ -17,6 +17,6 @@ build () {
 }
 
 # build firmware_eink_dmitry zbs29v026 firmware_2.9_selfbuild
-build firmware_eink_atc1441_ch11_low_power zbs29v033 firmware_2.9_selfbuild
-build firmware_eink_atc1441_ch11_low_power zbs42v033 firmware_4.2_selfbuild
-build firmware_eink_atc1441_ch11_low_power zbs154v033 firmware_1.54_selfbuild
+build firmware_eink_atc1441_ch11_low_power zbs29v033 firmware_2.9_selfbuild.bin
+build firmware_eink_atc1441_ch11_low_power zbs42v033 firmware_4.2_selfbuild.bin
+build firmware_eink_atc1441_ch11_low_power zbs154v033 firmware_1.54_selfbuild.bin
